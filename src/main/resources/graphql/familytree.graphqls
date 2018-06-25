@@ -1,0 +1,13 @@
+type Query {
+    # The API Version
+    version: String!
+}
+
+type Person {
+    id: String
+    name: String
+}
+
+extend type Query {
+    getPersonById(id: ID!) : Person
+}
