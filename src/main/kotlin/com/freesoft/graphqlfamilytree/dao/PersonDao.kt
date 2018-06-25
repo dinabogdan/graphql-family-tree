@@ -2,7 +2,6 @@ package com.freesoft.graphqlfamilytree.dao
 
 import com.freesoft.graphqlfamilytree.model.Person
 import org.springframework.stereotype.Component
-import java.util.*
 
 @Component
 class PersonDao {
